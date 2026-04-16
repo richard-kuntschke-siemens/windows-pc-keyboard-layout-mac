@@ -11,12 +11,17 @@
     <modifierMap id="84" defaultIndex="0">
         <keyMapSelect mapIndex="0">
             <modifier keys="command? anyControl?"/>
+            <modifier keys="caps anyShift command? anyControl?"/>
         </keyMapSelect>
         <keyMapSelect mapIndex="1">
             <modifier keys="anyShift command? anyControl?"/>
+            <modifier keys="caps command? anyControl?"/>
         </keyMapSelect>
         <keyMapSelect mapIndex="2">
             <modifier keys="anyOption command? anyControl?"/>
+            <modifier keys="caps anyOption command? anyControl?"/>
+            <modifier keys="anyShift anyOption command? anyControl?"/>
+            <modifier keys="caps anyShift anyOption command? anyControl?"/>
         </keyMapSelect>
     </modifierMap>
     <keyMapSet id="18c">
